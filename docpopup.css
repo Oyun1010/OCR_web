@@ -1,0 +1,73 @@
+#emhistory {
+    position: relative;
+    top: 10em;
+    left: 22em;
+    width: 65em;
+    height: 400px; 
+}
+#emhistory {  
+    background-color: white;    
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -10px 10px 10px 5px rgba(105, 98, 98, 0.2),
+                inset -5px -5px 5px 5px rgba(255,255,255,0.2),
+                inset -5px -5px 5px 5px rgb(237, 234, 234);
+}
+#emhistory h4 {
+    position: absolute;
+    top:1em;
+    color: rgb(66, 70, 59);
+    font-size: 25px;    
+    font-family: 'Times New Roman', Times, serif;   
+}
+#emhistory .close-btn {
+    position: absolute;
+    top:0.5em;
+    right: 1.5em;
+    font-size: 40px;  
+    transform: rotate(45deg); 
+    cursor: pointer; 
+}
+#emhistory .table {  
+    position: absolute;                
+    height: 80px;
+    width: 50px;
+    border-radius: 1em;
+    overflow: hidden; 
+    border-style: groove;
+    border-spacing: 0;
+    font-size: 16px;
+    font-family: Times;
+    color: rgb(28, 37, 34);
+} 
+#emhistory .table tr:first-child {
+    border-style: groove;
+    text-align: center;
+    background-color: rgb(169, 235, 213);
+}
+#emhistory .table input{
+   border: none;
+   margin: auto;
+   height: 40px;
+   color: rgb(43, 64, 56);
+   background-color: transparent;
+}
+#emhistory .add {
+    position: absolute;
+    right: 8.5em;
+    bottom: 6em;
+    height: 30px;
+    width: 100px;
+    border-radius: 60px;
+    border-style: none;
+    background-color: rgb(169, 235, 213);
+    font-family: 'Times New Roman';
+    font-size: 16px;
+} 
+#emhistory .add:hover{
+    background-color: rgb(97, 163, 140);
+    border-style: solid inset;
+    border-color: rgb(240, 243, 242);
+}

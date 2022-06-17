@@ -1,0 +1,59 @@
+.sidebar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 260px;
+    height: 1000px;
+    background-color: rgb(109, 223, 190); 
+    box-sizing: border-box;
+    font-family:'Times New Roman';
+}
+.sidebar img {
+    position: absolute;
+    top:50px;
+    left: 35px;
+}
+.sidebar ul {
+    position: absolute;
+    top: 270px;
+    left: 25px;
+    padding-left: 5px;
+    
+}
+.sidebar ul li:nth-child(5) {
+    position: absolute;
+    top:330px;
+
+}
+.sidebar ul li {
+    position: relative;
+    list-style: none;
+    width: 100%;
+}
+.sidebar ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.sidebar ul li a .icon {
+    position: relative;
+    display: block;
+    min-width: 40px;
+    height: 25px;   
+    text-align: center;
+    line-height: 60px;
+}
+.sidebar ul li a .icon ion-icon {
+    font-size: 1.5em;
+}
+.sidebar ul li a .title{
+    position: relative;
+    display: block;
+    top:-15px;
+    padding-left: 10px;
+    height: 35px;
+    line-height: 60px;
+}

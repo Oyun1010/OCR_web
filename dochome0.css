@@ -1,0 +1,160 @@
+
+#prohome {
+    height: auto;
+    position: fixed;
+    top: 70px;
+    left: 350px;
+}
+input[type=text] {
+    border-radius: 25px;
+    width: 180px;
+    height: 25px;
+    background-color: white;
+}
+input[type=submit] {
+    border-radius: 25px;
+    width: 60px;
+    height: 29px;
+    background-color: rgba(109, 223, 191, 0.855);
+    text-align: center;
+}
+.inp1, .inp {
+    margin: 8px;
+    border-style: solid initial;
+    border-color: aquamarine; 
+}
+#aside1 {
+    position: fixed;
+    top: 5rem;
+    left: 47rem;
+}
+#aside1 img {
+    position: fixed;
+    border-radius: 30px;
+}
+.sidecontent {
+    position: fixed;
+    top:5.6rem;
+    left:58rem;
+    text-align: left;
+}
+.sidecontent >* {
+    list-style: none;
+    border-spacing: 10px;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    padding: 5px;
+}
+.titlehis {
+    position: fixed;
+    top: 16rem;
+    left: 50rem;
+    font-family: 'Gill Sans';
+    font-size: 18px;
+}
+.tuuh{
+    position: fixed;
+    top: 17rem;
+    left: 48rem;   
+}
+.tuuh .text1 {
+    display: block;
+    margin: 5px;
+    height: 300px;
+    width: 570px;
+    border-style: solid inset;
+    border-color: aquamarine;
+}
+input[type=date] {
+    height: 30px;
+    width: 120px;
+    margin: 8px;
+    border-radius: 25px;
+    font-size: 17px;
+    border-style: solid inset;
+    border-color: aquamarine;
+}
+.haih1 {
+    border-style: solid inset;
+    border-color: aquamarine;
+    text-align: center;
+
+}
+.emtuuh {
+    position: absolute;
+    left: 350px;
+    height: 100px;
+    width: 330px;  
+    top: 28rem;   
+    border-color: aquamarine;
+ 
+}
+.emlist {
+    position: fixed;
+    top:210px;
+    left: 350px;
+    bottom: 80px;
+}
+.emlist {
+    height: 230px;
+    width: 330px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-style: solid inset;
+    border-color: aquamarine;
+    border-radius: 25px;    
+}
+.emlistname {
+    text-align: left;
+    list-style: none;
+    position: relative;
+    left: 35px;
+}  
+.emlist .list {
+    position: relative;
+    top:5px;
+    width: 325px;
+    height: 150px;
+    column-count: 2;
+    column-width: 20px;
+    line-height: 23px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+   
+    overflow-x: none;
+    overflow-y: auto;
+}
+.emlist .list >* {
+    width: 20px;   
+}
+.emtuuh  a {
+    text-decoration: none;
+}
+.emtuuh h5 {
+    font-size: 20px;
+    position: absolute;
+    left: 3.5em;
+}
+.emtuuh  a .show-btn {
+    position: absolute;
+    top: 5em;
+    left: 8.5em;
+    border-radius: 1em;
+    height: 1.5em;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(109, 223, 191, 0.855);
+    font-size: 20px;
+    border-style: solid inset;
+    border-color: aquamarine ;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+.emtuuh .show-btn:hover {
+    background-color: rgba(81, 174, 148, 0.855);
+    
+}

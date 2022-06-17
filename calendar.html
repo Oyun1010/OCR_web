@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Календар</title>
+  <link rel="stylesheet" type="text/css" href="calendar.css">
+  <link src="cal.js">
+  <link rel="stylesheet" href="sidebar.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="text/javascript" src="userhome.js"></script>
+</head>
+
+<body>
+  <div class="sidebar">
+    <img src="image/humanicon.png" alt="" width="170px" height="170px">
+    <ul>
+      <li>
+        <a href="userhome.php">
+          <ion-icon name="apps-outline" class="icon"></ion-icon>
+          <span class="title">Нүүр хуудаc</span>
+        </a>
+      </li>
+      <li>
+        <a href="calendar.html">
+          <ion-icon name="calendar-outline" class="icon"></ion-icon>
+          <span class="title">Календар</span>
+        </a>
+      </li>
+      <li>
+        <a href="hprofile.php">
+          <ion-icon name="person-outline" class="icon"></ion-icon>
+          <span class="title">Миний бүртгэл</span>
+        </a>
+      </li>
+      <li>
+        <a href="ehistory.php">
+          <ion-icon name="medkit-outline" class="icon"></ion-icon>
+          <span class="title">Эмчилгээний түүх</span>
+        </a>
+      </li>
+      <li>
+        <a href="index.html">
+          <ion-icon name="log-out-outline" class="icon"></ion-icon>
+          <span class="title">Гарах</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+ <div class="calendar">
+
+  <h1>Calendar</h1>
+  <div class="cal">
+    <div class="month">
+      <ul>
+        <li class="prev">&#10094;</li>
+        <li class="next">&#10095;</li>
+        <li>
+          Тавдугаар сар
+
+        </li>
+        <li class="year">
+          2022
+        </li>
+      </ul>
+    </div>
+
+    <ul class="weekdays">
+      <li>Ням</li>
+      <li>Даваа</li>
+      <li>Мягмар</li>
+      <li>Лхагва</li>
+      <li>Пүрэв</li>
+      <li>Баасан</li>
+      <li>Бямба</li>
+    </ul>
+
+    <ul class="days">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li>6</li>
+      <li>7</li>
+      <li id="demo" onclick="myFunction()"">8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li>31</li>
+</ul>
+</div>
+ </div>
+<script >
+  function myFunction() {
+    document.getElementById(" demo").style.backgroundColor = "#0a7e68"; document.getElementById("demo").style.color = "#fff"
+      ;
+  } </script>
+</body>
+
+</html>

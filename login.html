@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Нэвтрэх</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div id="content">
+        <img src="image/logo.png" alt="logo" width="200px" height="70px">
+        <p>Нэвтрэх</p>
+         
+            <button class="btn1">Хэрэглэгч</button>  
+            <button class="btn2">Ажилтан</button> 
+            <form class="f1 active" action="login.php" method="post" id="inform">
+                <input type="tel" id="phone" name="phone" placeholder="Утасны дугаар">
+                <input type="password" id="pass" name="password" placeholder="Нууц үг">
+                <a href="#"><span>Нууц үг сэргээх</span></a>
+                <a href="signup.html"><span>Бүртгүүлэх</span></a>
+                <input type="submit" id="nevbtn" name="submit" value="Нэвтрэх">
+            </form>
+            <form class="f2 custom" action="alogin.php" method="post" id="inform">
+                <input type="text" id="code" name="code" placeholder="Ажилтны код">
+                <input type="text" id="firstname" name="firstname" placeholder="Утасны дугаар">
+                <input type="password" id="pass" name="password" placeholder="Нууц үг">
+                <a href="#"><span>Нууц үг сэргээх</span></a>
+                <input type="submit" id="nevbtn" name="submit" value="Нэвтрэх">
+                
+            </form>
+                  
+            <style>
+                .custom {
+                    display: none;
+                }
+
+            </style>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script>
+                $(document).ready(function () {
+                    $(".btn1").click(function () {
+                        $(".f1").removeClass("custom");
+                        $(".f2").addClass("custom");
+                    });
+                    $(".btn2").click(function () {
+                        $(".f2").removeClass("custom");
+                        $(".f1").addClass("custom");
+                    });
+                });
+            </script>
+              
+       
+
+
+    </div>
+    
+
+</body>
+
+</html>

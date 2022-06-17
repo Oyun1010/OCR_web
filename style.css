@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+/*content part */
+.username .wel{
+    position: absolute;
+    top:100px;
+    left: 21rem;
+    width: 800px;
+    
+}
+.content{
+	position: relative;
+    min-height: 200px;
+	width: 720px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+
+	
+}
+
+
+/*logo part*/
+.choose_image{
+	position: relative;
+	width: 85%;
+	height: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	cursor: pointer;
+	margin: 10px 0 20px 0;
+	border: 2px dashed rgba(28, 47, 39, 0.5);
+}
+
+
+/*upload_img_box*/
+.upload_img_box{
+	position: absolute;
+	z-index: 100;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s;
+	color: #57bda5;
+}
+
+.hint_text{
+	display: flex;
+	flex-direction: column;
+		margin-left: 10px;
+}
+p#hint{
+	font-size: 1.2em;
+}
+.upload_img_box i{
+    font-size: 2.2em;
+}
+#supported_format_text{
+	font-size: 12px;
+}
+
+
+
+/*image holder part*/
+.image_holder{
+	position: relative;
+	display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+.image_holder img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+/*refresh icon part*/
+#refresh_icon{
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	height: 50px;
+	width: 50px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	color:  #5fbca6;
+	font-size: 1.8em;
+	background: #fff;
+	z-index: 300;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	transition: 0.5s;
+	box-shadow: 0.1px 4px 8px 5px rgba(0, 0, 0, 0.1);
+}
+#refresh_icon:hover{
+	transform: translateY(-10px);
+}
+
+
+/*show text part*/
+.show_text_box{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	background: #ECF0F1;
+}
+#converted_text{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	resize: none;
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 1.3em;
+}
+
+
+/*loading box part*/
+.loading_box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 50px;
+	width: auto;
+	padding: 10px 12px;
+	z-index: 5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #148F77;
+	border-radius: 10px;
+	color: #fff;
+	background: linear-gradient(to right, #348373,#8fcec1);
+	transform: translate(-50%,-50%);
+	box-shadow: 0.1px 4px 8px 5px rgba(0, 0, 0, 0.1);
+}
+.loading_box p{
+	font-size: 1.3em;
+}
+.loading_box i{
+	margin-left: 12px;
+	font-size: 1.3em;
+}
+
+
+/*form part*/
+form{
+	position: relative;
+	height: auto;
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#selectedImage{
+	display: none;
+}
+#convert_btn{
+	color: #fff;
+	border: none;
+    cursor: pointer;
+	font-size: 1.3em;
+	border-radius: 10px;
+	background:  #5fbca6;
+	pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    margin-left: 23em;
+}
+
+#info{
+	padding: 5px 10px;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.05);
+}
+
+
+
+/*responsive*/
+@media(max-width: 600px){
+   .content{
+   	width: 90%;
+   	margin:  20px 0;
+   }
+   .choose_image{
+   	  min-height: 300px;
+   	  width: 100%;
+   }
+   form{
+   	width: 100%;
+   	flex-direction: column;
+   }
+   #convert_btn{
+    	width: 100%;
+    	margin-top: 10px;
+   }
+}
+
+
+
+/*By DevIdeas*/

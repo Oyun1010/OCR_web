@@ -1,0 +1,27 @@
+
+#prohome {
+    height: auto;
+    position: fixed;
+    top: 70px;
+    left: 300px;
+}
+input[type=text] {
+    border-radius: 25px;
+    width: 150px;
+    height: 22px;
+    background-color: white;
+}
+input[type=submit] {
+    border-radius: 25px;
+    width: 55px;
+    height: 27px;
+    background-color: rgb(117, 208, 192);
+    text-align: center;
+}
+.inp {
+    margin: 8px;
+    border-style: solid initial;
+    border-color: aquamarine;
+    
+
+}

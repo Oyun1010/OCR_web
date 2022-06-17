@@ -1,0 +1,95 @@
+.aside {
+    position: fixed;
+    right: 0;
+    top:0;
+    width: 400px;
+    height: 1000px;
+}
+.aside img {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    background-color: aquamarine;
+    border-radius: 25px; 
+    
+}
+
+.aside .ls {
+    position: absolute;
+    top: 400px;
+    left: 40px;
+    border: 1px;
+    border-spacing: 10px;
+    border-radius: 15px;
+    margin: 50px;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(167, 236, 207), rgb(247, 253, 251));
+}
+.content {
+    position: fixed;
+    top:150px;
+    left: 300px;
+    width: 800px;
+ 
+    
+}
+
+/*.content form .filename{
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content input[type=file]::file-selector-button {
+    border-radius:  25px;
+    background-color: #5fbca6;
+    border: none;
+    transition: 1s;
+    width: 100px;
+    height: 30px;
+    
+  }
+  .content input[type=file]{
+      text-align: right;
+      border-radius: 25px;
+      border-style: inset;
+      border-width: 1px;
+      border-color:rgb(147, 212, 176);
+      height: 30px;
+    }
+  .content input[type=submit] {
+    border: 2px solid #97ebc7;
+    border-radius:  25px;
+    background-color: #5fbca6;
+    transition: 1s;
+    width: 100px;
+    height: 30px;
+  }
+
+  .content label {
+      position: relative;
+      top:150px;
+      left: 50px;
+  }
+  .emlist table {
+    position: absolute;
+    top: 400px;
+    left: 40px;
+    border: 1px;
+    border-spacing: 10px;
+}
+.emlist table tr td {
+    border-radius: 15px;
+    margin: 50px;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(167, 236, 207), rgb(247, 253, 251));
+    
+}*/
